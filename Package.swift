@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "alter-multipart-kit",
+    name: "AlterMultipartKit",
     platforms: [
        .macOS(.v10_15)
     ],
@@ -19,6 +19,6 @@ let package = Package(
             .product(name: "NIOHTTP1", package: "swift-nio"),
             .target(name: "CMultipartParser"),
         ]),
-        .testTarget(name: "MultipartKitTests", dependencies: ["AlterMultipartKit"]),
+        .testTarget(name: "AlterMultipartKitTests", dependencies: ["AlterMultipartKit"]),
     ]
 )
