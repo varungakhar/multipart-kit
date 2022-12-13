@@ -1,5 +1,5 @@
 import XCTest
-import MultipartKit
+import AlterMultipartKit
 
 class MultipartTests: XCTestCase {
     let named = """
