@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "multipart-kit",
+    name: "alter-multipart-kit",
     platforms: [
        .macOS(.v10_15)
     ],
     products: [
-        .library(name: "MultipartKit", targets: ["MultipartKit"]),
+        .library(name: "AlterMultipartKit", targets: ["MultipartKit"]),
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-nio.git", from: "2.2.0"),
